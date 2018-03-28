@@ -21,17 +21,24 @@
           <!-- Content here -->
           <div class="jumbotron jumbotron-fluid">
                 <div class="container">
+
                         <h1 class=big-trivia>Totally Trivia Trivia!</h1>
                         <p class="lead">Brazil Trivia</p>
-                        <img class="rounded d-block" id="image-holder" src="assets/images/test.jpg" width='400px'>
+                        <div id="image-div">
 
                 </div>
               </div>
 
 
-        <h2 id=time-left>Time left</h2>
+        <h2 id=correct-answer>Time left</h2>
+        <div id="display"><span id="timer"></span>
+            <p id="wins"> Wins: </p>
+            <p id="losses"> Losses: </p>
 
-        <div id="question">Question</div>
+        </div>
+
+
+        <div class ="blockquote alert alert-warning"id="question">Question</div>
 
         <div id="answer-grid">
             <button class="btn btn-secondary btn-lg btn-block" id="altA"></button><p>Answer A</p>
